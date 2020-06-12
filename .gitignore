@@ -1,0 +1,9 @@
+/WTL/HsvColorMap/*.aps
+/WTL/HsvColorMap/*.opendb
+/WTL/HsvColorMap/*.db
+/WTL/HsvColorMap/*.user
+/WTL/HsvColorMap/ColorMap_i.c
+/WTL/HsvColorMap/ColorMap_i.h
+/WTL/HsvColorMap/ipch
+/WTL/HsvColorMap/Debug
+/WTL/HsvColorMap/DebugPS
