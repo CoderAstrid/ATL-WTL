@@ -1,0 +1,18 @@
+// HSVColorMap.idl : IDL source for HSVColorMap
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (HSVColorMap.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(1861ED64-FE77-41D9-8504-8B2325DC6474),
+	version(1.0),
+	helpstring("HSVColorMap 1.0 Type Library")
+]
+library HSVColorMapLib
+{
+	importlib("stdole2.tlb");
+};

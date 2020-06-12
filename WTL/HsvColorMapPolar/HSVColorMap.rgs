@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'HSVColorMap'
+		'HSVColorMap.EXE'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
