@@ -1,0 +1,18 @@
+// ColorMap.idl : IDL source for ColorMap
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ColorMap.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(D248F378-588C-43AA-899A-27FC22AA5D84),
+	version(1.0),
+	helpstring("ColorMap 1.0 Type Library")
+]
+library ColorMapLib
+{
+	importlib("stdole2.tlb");
+};
