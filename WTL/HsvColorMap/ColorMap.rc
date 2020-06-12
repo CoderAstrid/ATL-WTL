@@ -27,14 +27,14 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 // Dialog
 //
 
-IDD_CTESTDLG DIALOGEX 0, 0, 320, 200
+IDD_CTESTDLG DIALOGEX 0, 0, 321, 86
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Dialog"
 FONT 8, "MS Shell Dlg", 0, 0, 0x0
 BEGIN
-    DEFPUSHBUTTON   "OK",IDOK,209,179,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,263,179,50,14
-    LTEXT           "Static",IDC_COLOR_MAP,7,122,306,51,SS_NOTIFY | SS_SUNKEN,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,209,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,264,65,50,14
+    LTEXT           "Static",IDC_COLOR_MAP,7,7,307,51,SS_NOTIFY | SS_SUNKEN,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT
 END
 
 
@@ -49,12 +49,23 @@ BEGIN
     IDD_CTESTDLG, DIALOG
     BEGIN
         LEFTMARGIN, 7
-        RIGHTMARGIN, 313
+        RIGHTMARGIN, 314
         TOPMARGIN, 7
-        BOTTOMMARGIN, 193
+        BOTTOMMARGIN, 79
     END
 END
 #endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CTESTDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
 
 #endif    // Chinese (Simplified, PRC) resources
 /////////////////////////////////////////////////////////////////////////////
