@@ -16,3 +16,12 @@
 /WTL/ColorSelector/ColorSelector.vcxproj.user
 /WTL/ColorSelector/ColorSelector_i.c
 /WTL/ColorSelector/ColorSelector_i.h
+/WTL/HsvColorMapPolar/Debug
+/WTL/HsvColorMapPolar/DebugPS
+/WTL/HsvColorMapPolar/ipch
+/WTL/HsvColorMapPolar/.vs
+/WTL/HsvColorMapPolar/HSVColorMap.VC.db
+/WTL/HsvColorMapPolar/HSVColorMap.vcxproj.user
+/WTL/HsvColorMapPolar/HSVColorMap_i.c
+/WTL/HsvColorMapPolar/HSVColorMap_i.h
+/WTL/HsvColorMapPolar/HSVColorMapPS.vcxproj.user
