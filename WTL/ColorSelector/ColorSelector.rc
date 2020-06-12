@@ -1,0 +1,324 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean (Korea) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TESTDLG DIALOG 0, 0, 320, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,209,179,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,263,179,50,14
+END
+
+IDD_COLORSELCTORDLG DIALOGEX 0, 0, 144, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Color Selector"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ARROW",IDC_ADVANCED_BTN,132,0,12,12,BS_ICON
+    COMBOBOX        IDC_COLSPC_COMBO,96,0,37,65,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab1",IDC_CLRSPACE_TAB,"SysTabControl32",0x0,0,0,144,92
+    CONTROL         "",IDC_PAN_GRP,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,2,16,140,75
+    PUSHBUTTON      "&Cancel",IDCANCEL,109,94,35,14
+    DEFPUSHBUTTON   "&OK",IDOK,72,94,35,14
+    CONTROL         "",IDC_PREVCOL_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_BORDER | WS_GROUP | WS_TABSTOP,44,94,20,14
+    CONTROL         "",IDC_CURCOL_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_BORDER | WS_GROUP | WS_TABSTOP,2,94,40,14
+END
+
+IDD_RGB_SEL_Form DIALOGEX 0, 0, 140, 75
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",4462,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,4,100,14
+    CONTROL         "",4463,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,22,100,14
+    CONTROL         "",4464,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,40,100,14
+    CONTROL         "",4465,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,134,26,6,10
+    LTEXT           "R",4466,1,9,6,10
+    LTEXT           "G",4467,1,26,6,10
+    LTEXT           "B",4468,2,43,6,10
+    LTEXT           "",4469,133,13,6,10
+    EDITTEXT        4470,111,4,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4471,111,22,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4472,111,40,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4473,134,40,6,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "",4474,131,2,6,10
+    LTEXT           "",4475,131,18,6,10
+    LTEXT           "",4476,131,37,6,10
+    LTEXT           "",4477,134,30,6,10
+    CONTROL         "",4478,"Static",SS_WHITERECT | SS_NOTIFY | SS_SUNKEN,0,56,139,17
+END
+
+IDD_HSV_Sel_Form DIALOGEX 0, 0, 140, 75
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",4462,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,4,100,14
+    CONTROL         "",4463,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,22,100,14
+    CONTROL         "",4464,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,40,100,14
+    CONTROL         "",4465,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,114,58,6,10
+    LTEXT           "H",4466,1,9,8,10
+    LTEXT           "S",4467,1,26,8,10
+    LTEXT           "V",4468,2,43,8,10
+    LTEXT           "",4469,133,13,8,10
+    EDITTEXT        4470,111,4,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4471,111,22,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4472,111,40,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4473,105,60,6,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "",4474,131,6,8,10
+    LTEXT           "%",4475,132,24,8,10
+    LTEXT           "%",4476,132,42,8,10
+    LTEXT           "",4477,127,62,8,10
+    CONTROL         "",4478,"Static",SS_WHITERECT | SS_NOTIFY | SS_SUNKEN,0,56,139,17
+END
+
+IDD_CMYK_SEL_Form DIALOGEX 0, 0, 140, 75
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",4462,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,1,100,14
+    CONTROL         "",4463,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,15,100,14
+    CONTROL         "",4464,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,28,100,14
+    CONTROL         "",4465,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,9,42,100,14
+    LTEXT           "C",4466,2,3,8,10
+    LTEXT           "M",4467,1,17,8,10
+    LTEXT           "Y",4468,2,31,8,10
+    LTEXT           "K",4469,2,43,8,10
+    EDITTEXT        4470,111,0,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4471,111,14,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4472,111,28,19,12,ES_AUTOHSCROLL
+    EDITTEXT        4473,111,42,19,12,ES_AUTOHSCROLL
+    LTEXT           "%",4474,132,1,8,12
+    LTEXT           "%",4475,132,14,8,12
+    LTEXT           "%",4476,132,28,8,12
+    LTEXT           "%",4477,132,42,8,12
+    CONTROL         "",IDC_MAP,"Static",SS_WHITERECT | SS_NOTIFY | SS_SUNKEN,0,57,139,17
+END
+
+IDD_COLPROPERTYSELFORM DIALOGEX 0, 0, 140, 75
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "&Use Windows dithering",IDC_CHK_DITHER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,12,90,15
+    GROUPBOX        "Dither",-1,5,4,129,30
+    GROUPBOX        "Other Options",-1,5,40,129,30
+    CONTROL         "Color is Null",IDC_CHK_NULL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,54,89,10
+END
+
+IDD_COLPALETTESELWND DIALOGEX 0, 0, 100, 14
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",4458,"Static",SS_WHITERECT | SS_NOTIFY | SS_SUNKEN,4,0,92,5
+    CONTROL         "Slider1",4459,"msctls_trackbar32",TBS_NOTICKS,0,5,100,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_TESTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_COLORSELCTORDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_RGB_SEL_Form, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_HSV_Sel_Form, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_CMYK_SEL_Form, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_COLPROPERTYSELFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_COLPALETTESELWND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_COLPROPERTYSELFORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Korean (Korea) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""ColorSelector.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "InternalName", "ColorSelector.exe"
+            VALUE "OriginalFilename", "ColorSelector.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_COLORSELECTOR       REGISTRY                "ColorSelector.rgs"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROJNAME            "ColorSelector"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "ColorSelector.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
