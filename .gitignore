@@ -7,3 +7,12 @@
 /WTL/HsvColorMap/ipch
 /WTL/HsvColorMap/Debug
 /WTL/HsvColorMap/DebugPS
+/WTL/ColorSelector/DebugPS
+/WTL/ColorSelector/ipch
+/WTL/ColorSelector/.vs
+/WTL/ColorSelector/Debug
+/WTL/ColorSelector/ColorSelectorPS.vcxproj.user
+/WTL/ColorSelector/ColorSelector.VC.db
+/WTL/ColorSelector/ColorSelector.vcxproj.user
+/WTL/ColorSelector/ColorSelector_i.c
+/WTL/ColorSelector/ColorSelector_i.h
