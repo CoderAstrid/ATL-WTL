@@ -88,15 +88,11 @@ CColorMap::SS_DrawColorMap(
 
 LRESULT CColorMap::OnCreate(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& /*bHandled*/)
 {
-	// TODO: Add your message handler code here and/or call default
-
 	return 0;
 }
 
 LRESULT CColorMap::OnDestroy(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& /*bHandled*/)
 {
-	// TODO: Add your message handler code here and/or call default
-
 	return 0;
 }
 
